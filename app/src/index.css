@@ -1,0 +1,51 @@
+/* 1. Importación principal de Tailwind v4 */
+@import "tailwindcss";
+
+/* 2. Definición de fuentes (con el format corregido a truetype para los .ttf) */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf")
+    format("truetype");
+}
+
+/* 3. El nuevo motor de temas de v4. 
+   Al poner tus variables aquí, Tailwind automáticamente genera las clases
+   como bg-jenkins-blue, text-jenkins-red, font-open-sans, etc. */
+@theme {
+  /* Colores base de la interfaz */
+  --color-jenkins-bg: #f3f4f6;
+  --color-jenkins-surface: #ffffff;
+  --color-jenkins-header: #000000;
+  --color-jenkins-text: #333333;
+
+  /* Colores de estado (Build Status) */
+  --color-jenkins-blue: #0b6eaf;
+  --color-jenkins-green: #138347;
+  --color-jenkins-red: #cc0000;
+  --color-jenkins-yellow: #e1b30b;
+  --color-jenkins-gray: #969696;
+
+  /* Nombres de fuentes en minúsculas y separadas por guiones (recomendación de v4) */
+  --font-raleway: "Raleway", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}
+
+/* 4. Estilos base aplicados al Body */
+@layer base {
+  body {
+    font-family: var(--font-open-sans);
+    @apply bg-cyan-950 text-amber-50;
+  }
+}
