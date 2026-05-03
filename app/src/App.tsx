@@ -7,7 +7,7 @@ function App() {
       image: "/images/JuanPacheco.jpeg",
     },
     {
-      name: "Angela Camila Quitiaquez Diaz",
+      name: "Angela Camila Quitiaquez Díaz",
       image: "/images/Angela.png",
     },
   ];
@@ -24,13 +24,17 @@ function App() {
             </h1>
             <div className="mt-8 h-1.5 w-24 bg-white rounded-full opacity-50"></div>
             <p className="mt-8 max-w-4xl font-raleway text-xl font-bold tracking-wide text-white md:text-2xl">
-              Descubriendo el máximo potencial de la automatización y la integración continua
+              Descubriendo el máximo potencial de la automatización y la
+              integración continua
             </p>
           </div>
         </div>
       </section>
 
-      <section id="que-es" className="mx-auto max-w-7xl px-4 py-24 md:px-8 lg:px-16 scroll-mt-20">
+      <section
+        id="que-es"
+        className="mx-auto max-w-7xl px-4 py-24 md:px-8 lg:px-16 scroll-mt-20"
+      >
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="order-2 lg:order-1">
             <h2 className="font-raleway text-3xl font-bold text-jenkins-red md:text-4xl">
@@ -38,16 +42,18 @@ function App() {
             </h2>
             <div className="mt-6 space-y-4 font-open-sans text-lg text-gray-700 leading-relaxed">
               <p>
-                Jenkins es el servidor de automatización de código abierto líder en el mundo. 
-                Es una herramienta esencial para el desarrollo de software moderno, permitiendo 
-                a los equipos automatizar las partes relacionadas con el desarrollo, las pruebas 
-                y el despliegue.
+                Jenkins es el servidor de automatización de código abierto líder
+                en el mundo. Es una herramienta esencial para el desarrollo de
+                software moderno, permitiendo a los equipos automatizar las
+                partes relacionadas con el desarrollo, las pruebas y el
+                despliegue.
               </p>
               <p>
-                Originalmente creado como el proyecto Hudson, Jenkins facilita la Integración 
-                Continua (CI) y la Entrega Continua (CD), lo que ayuda a reducir el tiempo de 
-                comercialización y mejora la calidad del código mediante la automatización de 
-                tareas repetitivas.
+                Originalmente creado como el proyecto Hudson, Jenkins facilita
+                la Integración Continua (CI) y la Entrega Continua (CD), lo que
+                ayuda a reducir el tiempo de comercialización y mejora la
+                calidad del código mediante la automatización de tareas
+                repetitivas.
               </p>
               <div className="pt-4">
                 <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -88,7 +94,9 @@ function App() {
               ¿Cómo funciona Jenkins?
             </h2>
             <p className="mx-auto mt-4 max-w-2xl font-open-sans text-lg text-gray-600">
-              Jenkins utiliza una arquitectura robusta y un sistema de automatización basado en código para gestionar el ciclo de vida del software.
+              Jenkins utiliza una arquitectura robusta y un sistema de
+              automatización basado en código para gestionar el ciclo de vida
+              del software.
             </p>
           </div>
 
@@ -100,14 +108,17 @@ function App() {
                 className="rounded-xl border-4 border-jenkins-red/10 shadow-xl"
               />
             </div>
-            
+
             <div className="space-y-10">
               <div className="relative pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-1 before:bg-jenkins-red">
                 <h3 className="font-raleway text-2xl font-bold text-gray-900">
                   El Pipeline de Jenkins
                 </h3>
                 <p className="mt-3 font-open-sans text-gray-600 leading-relaxed">
-                  Un Pipeline es un conjunto de plugins que permite la implementación y la integración de pipelines de entrega continua en Jenkins. Se define mediante código (Jenkinsfile), lo que permite que sea versionado y compartido.
+                  Un Pipeline es un conjunto de plugins que permite la
+                  implementación y la integración de pipelines de entrega
+                  continua en Jenkins. Se define mediante código (Jenkinsfile),
+                  lo que permite que sea versionado y compartido.
                 </p>
                 <ul className="mt-4 space-y-2 text-sm font-semibold text-jenkins-red">
                   <li>• Declarative vs Scripted Syntax</li>
@@ -121,12 +132,22 @@ function App() {
                   Modelo Controller/Agent
                 </h3>
                 <p className="mt-3 font-open-sans text-gray-600 leading-relaxed">
-                  Jenkins utiliza un modelo distribuido. El <strong>Controller</strong> maneja la configuración, la interfaz de usuario y la programación de tareas, mientras que los <strong>Agents</strong> (nodos) ejecutan los trabajos pesados de compilación y pruebas.
+                  Jenkins utiliza un modelo distribuido. El{" "}
+                  <strong>Controller</strong> maneja la configuración, la
+                  interfaz de usuario y la programación de tareas, mientras que
+                  los <strong>Agents</strong> (nodos) ejecutan los trabajos
+                  pesados de compilación y pruebas.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="rounded bg-jenkins-red/5 px-3 py-1 text-xs font-bold text-jenkins-red uppercase tracking-wider">Escalabilidad</span>
-                  <span className="rounded bg-jenkins-red/5 px-3 py-1 text-xs font-bold text-jenkins-red uppercase tracking-wider">Seguridad</span>
-                  <span className="rounded bg-jenkins-red/5 px-3 py-1 text-xs font-bold text-jenkins-red uppercase tracking-wider">Aislamiento</span>
+                  <span className="rounded bg-jenkins-red/5 px-3 py-1 text-xs font-bold text-jenkins-red uppercase tracking-wider">
+                    Escalabilidad
+                  </span>
+                  <span className="rounded bg-jenkins-red/5 px-3 py-1 text-xs font-bold text-jenkins-red uppercase tracking-wider">
+                    Seguridad
+                  </span>
+                  <span className="rounded bg-jenkins-red/5 px-3 py-1 text-xs font-bold text-jenkins-red uppercase tracking-wider">
+                    Aislamiento
+                  </span>
                 </div>
               </div>
             </div>
@@ -141,7 +162,8 @@ function App() {
               Poder Infinito con Plugins
             </h2>
             <p className="mx-auto mt-4 max-w-2xl font-open-sans text-lg text-gray-600">
-              El verdadero poder de Jenkins reside en su extensibilidad. Con más de 1,800 plugins, puedes integrar casi cualquier herramienta.
+              El verdadero poder de Jenkins reside en su extensibilidad. Con más
+              de 1,800 plugins, puedes integrar casi cualquier herramienta.
             </p>
           </div>
 
@@ -152,20 +174,38 @@ function App() {
                 ¿Cómo funciona un Plugin?
               </h3>
               <p className="mt-4 font-open-sans text-gray-600 leading-relaxed">
-                Los plugins son paquetes autocontenidos (archivos <code className="bg-gray-100 px-1 rounded text-jenkins-red">.hpi</code> o <code className="bg-gray-100 px-1 rounded text-jenkins-red">.jpi</code>) que se cargan en la JVM de Jenkins. Utilizan <strong>Extension Points</strong> para añadir nuevas funcionalidades sin modificar el núcleo.
+                Los plugins son paquetes autocontenidos (archivos{" "}
+                <code className="bg-gray-100 px-1 rounded text-jenkins-red">
+                  .hpi
+                </code>{" "}
+                o{" "}
+                <code className="bg-gray-100 px-1 rounded text-jenkins-red">
+                  .jpi
+                </code>
+                ) que se cargan en la JVM de Jenkins. Utilizan{" "}
+                <strong>Extension Points</strong> para añadir nuevas
+                funcionalidades sin modificar el núcleo.
               </p>
               <div className="mt-6 space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-jenkins-red/10 text-jenkins-red">
                     <span className="text-[10px]">▶</span>
                   </div>
-                  <p className="text-sm text-gray-600"><strong>Extension Points:</strong> Permiten a los desarrolladores "engancharse" a procesos existentes como compilaciones o reportes.</p>
+                  <p className="text-sm text-gray-600">
+                    <strong>Extension Points:</strong> Permiten a los
+                    desarrolladores "engancharse" a procesos existentes como
+                    compilaciones o reportes.
+                  </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-jenkins-red/10 text-jenkins-red">
                     <span className="text-[10px]">▶</span>
                   </div>
-                  <p className="text-sm text-gray-600"><strong>Update Center:</strong> Jenkins se conecta a un repositorio central para descargar e instalar plugins automáticamente.</p>
+                  <p className="text-sm text-gray-600">
+                    <strong>Update Center:</strong> Jenkins se conecta a un
+                    repositorio central para descargar e instalar plugins
+                    automáticamente.
+                  </p>
                 </div>
               </div>
             </div>
@@ -184,18 +224,32 @@ function App() {
                   { name: "Slack", desc: "Notificaciones en tiempo real" },
                   { name: "SonarQube", desc: "Análisis de calidad" },
                 ].map((plugin) => (
-                  <div key={plugin.name} className="group rounded-lg border border-gray-100 p-3 transition-colors hover:bg-jenkins-red/5">
-                    <h4 className="font-bold text-jenkins-red">{plugin.name}</h4>
+                  <div
+                    key={plugin.name}
+                    className="group rounded-lg border border-gray-100 p-3 transition-colors hover:bg-jenkins-red/5"
+                  >
+                    <h4 className="font-bold text-jenkins-red">
+                      {plugin.name}
+                    </h4>
                     <p className="text-xs text-gray-500">{plugin.desc}</p>
                   </div>
                 ))}
               </div>
               <div className="mt-8">
-                <h4 className="font-raleway text-sm font-bold uppercase tracking-wider text-gray-400">¿Cómo Integrarlos?</h4>
+                <h4 className="font-raleway text-sm font-bold uppercase tracking-wider text-gray-400">
+                  ¿Cómo Integrarlos?
+                </h4>
                 <ol className="mt-3 space-y-2 text-sm text-gray-600">
-                  <li>1. Ve a <strong>Administrar Jenkins</strong> {">"} <strong>Plugins</strong>.</li>
-                  <li>2. Busca el plugin en la pestaña <strong>Available</strong>.</li>
-                  <li>3. Haz clic en <strong>Install without restart</strong>.</li>
+                  <li>
+                    1. Ve a <strong>Administrar Jenkins</strong> {">"}{" "}
+                    <strong>Plugins</strong>.
+                  </li>
+                  <li>
+                    2. Busca el plugin en la pestaña <strong>Available</strong>.
+                  </li>
+                  <li>
+                    3. Haz clic en <strong>Install without restart</strong>.
+                  </li>
                 </ol>
               </div>
             </div>
@@ -211,35 +265,61 @@ function App() {
                 Ventajas y Desventajas
               </h2>
               <p className="mt-4 font-open-sans text-lg text-gray-600">
-                Como cualquier herramienta, Jenkins tiene sus fortalezas y sus retos. Aquí te presentamos un análisis honesto.
+                Como cualquier herramienta, Jenkins tiene sus fortalezas y sus
+                retos. Aquí te presentamos un análisis honesto.
               </p>
 
               <div className="mt-10 grid gap-8 sm:grid-cols-2">
                 {/* Ventajas */}
                 <div className="space-y-4">
                   <h3 className="flex items-center gap-2 font-raleway text-xl font-bold text-jenkins-green">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-jenkins-green/10 text-sm">+</span>
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-jenkins-green/10 text-sm">
+                      +
+                    </span>
                     Ventajas
                   </h3>
                   <ul className="space-y-3 text-sm text-gray-600">
-                    <li className="flex gap-2"><strong>•</strong> Ecosistema de plugins inigualable.</li>
-                    <li className="flex gap-2"><strong>•</strong> Totalmente gratuito y de código abierto.</li>
-                    <li className="flex gap-2"><strong>•</strong> Gran comunidad y soporte documental.</li>
-                    <li className="flex gap-2"><strong>•</strong> Altamente personalizable y flexible.</li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Ecosistema de plugins inigualable.
+                    </li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Totalmente gratuito y de código
+                      abierto.
+                    </li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Gran comunidad y soporte documental.
+                    </li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Altamente personalizable y flexible.
+                    </li>
                   </ul>
                 </div>
 
                 {/* Desventajas */}
                 <div className="space-y-4">
                   <h3 className="flex items-center gap-2 font-raleway text-xl font-bold text-jenkins-red">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-jenkins-red/10 text-sm">-</span>
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-jenkins-red/10 text-sm">
+                      -
+                    </span>
                     Desventajas
                   </h3>
                   <ul className="space-y-3 text-sm text-gray-600">
-                    <li className="flex gap-2"><strong>•</strong> Interfaz de usuario que puede sentirse anticuada.</li>
-                    <li className="flex gap-2"><strong>•</strong> Requiere mantenimiento manual constante.</li>
-                    <li className="flex gap-2"><strong>•</strong> Curva de aprendizaje inicial pronunciada.</li>
-                    <li className="flex gap-2"><strong>•</strong> "Plugin hell": conflictos entre versiones.</li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Interfaz de usuario que puede sentirse
+                      anticuada.
+                    </li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Requiere mantenimiento manual
+                      constante.
+                    </li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> Curva de aprendizaje inicial
+                      pronunciada.
+                    </li>
+                    <li className="flex gap-2">
+                      <strong>•</strong> "Plugin hell": conflictos entre
+                      versiones.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -264,7 +344,10 @@ function App() {
           </h2>
           <div className="mt-16 flex flex-wrap justify-center gap-12">
             {participants.map((person) => (
-              <div key={person.name} className="group relative flex flex-col items-center">
+              <div
+                key={person.name}
+                className="group relative flex flex-col items-center"
+              >
                 <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-xl transition-transform duration-500 group-hover:scale-105">
                   <img
                     src={person.image}
@@ -274,7 +357,9 @@ function App() {
                   <div className="absolute inset-0 bg-jenkins-red/20 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="font-raleway text-xl font-bold text-gray-900">{person.name}</h3>
+                  <h3 className="font-raleway text-xl font-bold text-gray-900">
+                    {person.name}
+                  </h3>
                 </div>
               </div>
             ))}
