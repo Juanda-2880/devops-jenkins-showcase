@@ -26,11 +26,11 @@ resource "aws_security_group" "jenkins_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  ingress = {
-    description = "Puerto 3000"
-    from_port = 3000
-    to_port = 3000
-    protocol = "tcp"
+    ingress {
+    description = "Permitir Docker"
+    from_port   = 3000
+    to_port     = 3000
+    protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
