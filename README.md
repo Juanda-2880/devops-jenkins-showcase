@@ -30,8 +30,9 @@ https://github.com/user-attachments/assets/13fce550-f719-4b2c-8e05-d220021c6a69
 
 
 
-https://github.com/user-attachments/assets/cdc2850b-5d91-42b4-9717-746bdc5683b4
-
+<p align="center">
+  https://github.com/user-attachments/assets/cdc2850b-5d91-42b4-9717-746bdc5683b4
+</p>
 
 ## EC2 en AWS
 
