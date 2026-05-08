@@ -87,6 +87,44 @@ function App() {
         </div>
       </section>
 
+      <section id="historia" className="bg-white py-24 scroll-mt-20">
+        <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-16">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div className="flex justify-center">
+              <img
+                src="/images/history.png"
+                alt="Historia de Jenkins"
+                className="rounded-xl shadow-xl border-4 border-jenkins-red/10"
+              />
+            </div>
+            <div>
+              <h2 className="font-raleway text-3xl font-bold text-jenkins-red md:text-4xl">
+                Nuestra Historia
+              </h2>
+              <div className="mt-6 space-y-4 font-open-sans text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Todo comenzó en 2004 en Sun Microsystems, cuando Kohsuke
+                  Kawaguchi creó <strong>Hudson</strong> como una forma de saber
+                  si su código rompería la compilación antes de enviarlo.
+                </p>
+                <p>
+                  En 2011, tras la adquisición de Sun por parte de Oracle,
+                  surgió una disputa sobre el control del proyecto. La comunidad
+                  votó mayoritariamente por bifurcar el proyecto y así nació{" "}
+                  <strong>Jenkins</strong>.
+                </p>
+                <p>
+                  Hoy en día, Jenkins es el estándar de la industria, con una
+                  comunidad global masiva que mantiene miles de plugins y
+                  asegura que la herramienta siga siendo relevante en el
+                  ecosistema de DevOps moderno.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="como-funciona" className="bg-white py-24 scroll-mt-20">
         <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-16">
           <div className="text-center">
@@ -252,6 +290,53 @@ function App() {
                   </li>
                 </ol>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="git" className="bg-white py-24 scroll-mt-20">
+        <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-16">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div className="order-2 lg:order-1">
+              <h2 className="font-raleway text-3xl font-bold text-jenkins-red md:text-4xl">
+                Integración con Git
+              </h2>
+              <div className="mt-6 space-y-4 font-open-sans text-lg text-gray-700 leading-relaxed">
+                <p>
+                  La integración entre Jenkins y Git es el corazón de muchos
+                  flujos de trabajo modernos. A través del plugin de Git,
+                  Jenkins puede monitorear repositorios y reaccionar a cambios
+                  en tiempo real.
+                </p>
+                <p>
+                  Utilizando <strong>Webhooks</strong>, Git notifica a Jenkins
+                  cada vez que un desarrollador realiza un "push". Esto dispara
+                  automáticamente un Pipeline que compila, prueba y valida el
+                  código nuevo.
+                </p>
+                <ul className="mt-4 space-y-2">
+                  <li className="flex items-center gap-2 text-gray-700">
+                    <span className="text-jenkins-red">●</span> Detección
+                    automática de ramas
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-700">
+                    <span className="text-jenkins-red">●</span> Soporte para
+                    Pull Requests
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-700">
+                    <span className="text-jenkins-red">●</span> Trazabilidad
+                    total del código
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2 flex justify-center">
+              <img
+                src="/images/jenkins-git.png"
+                alt="Jenkins y Git Integration"
+                className="rounded-xl shadow-2xl border-2 border-gray-100"
+              />
             </div>
           </div>
         </div>

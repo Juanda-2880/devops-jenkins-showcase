@@ -5,8 +5,10 @@ export const Header = () => {
 
   const navItems = [
     { name: "¿Qué es?", href: "#que-es" },
+    { name: "Historia", href: "#historia" },
     { name: "¿Cómo funciona?", href: "#como-funciona" },
     { name: "Plugins", href: "#plugins" },
+    { name: "Git", href: "#git" },
     { name: "Ventajas", href: "#ventajas" },
     { name: "Participantes", href: "#participantes" },
   ];
